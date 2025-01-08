@@ -4,7 +4,7 @@ openai.api_key = "Your API KEY"
 #Instructs the model to respond poetically, with a higher temperature (1) for more creative and stylistic outputs.
 def poetic_chatbot(prompt):
     response = openai.chat.completions.create(
-        model = "gpt-3.5-turbo",
+        model = "gpt-4",
         messages = [
             {
                 "role": "system",
