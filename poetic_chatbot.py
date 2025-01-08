@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "Your API KEY"
 #Instructs the model to respond poetically, with a higher temperature (1) for more creative and stylistic outputs.
 def poetic_chatbot(prompt):
     response = openai.chat.completions.create(
